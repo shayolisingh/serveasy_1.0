@@ -1,50 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark">
-
-
-    <LinearLayout
-        android:layout_width="366dp"
-        android:layout_height="399dp"
-        android:orientation="vertical"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:gravity="center"
-        android:layout_alignParentTop="true"
-        android:background="@color/colorPrimaryDark"
-        android:layout_above="@id/input_group">
-        <!--<TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:text="SIGN UP"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"/>-->
-
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/newlogo2crop" />
-    </LinearLayout>
+    android:background="@color/colorPrimaryDark"
+    android:fitsSystemWindows="true">
 
 
     <LinearLayout
         android:id="@+id/input_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
         android:layout_marginBottom="50dp"
-        android:layout_alignParentBottom="true"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="321dp"
+            app:srcCompat="@drawable/newlogo2" />
 
         <EditText
+            android:id="@+id/uname_edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
@@ -53,23 +33,25 @@
             android:padding="15dp" />
 
         <EditText
+            android:id="@+id/email_edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
             android:background="@color/colorPrimary"
             android:hint="Email"
-            android:layout_marginBottom="15dp"
             android:inputType="textEmailAddress"
             android:padding="15dp" />
 
         <EditText
+            android:id="@+id/pass_edittext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
             android:background="@color/colorPrimary"
             android:hint="Password"
             android:inputType="textPassword"
-            android:layout_marginBottom="15dp"
-            android:padding="15dp"/>
+            android:padding="15dp" />
 
         <!--<Spinner
             android:layout_width="match_parent"
@@ -78,30 +60,41 @@
             android:padding="15dp"
             android:entries="@array/country_arrays"/>-->
 
-        <Button
-            android:id="@+id/SignUp_button"
+        <EditText
+            android:id="@+id/edit_text_cnfpass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
             android:background="@color/colorPrimary"
-            android:foreground="?android:attr/selectableItemBackground"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+
+            android:gravity="center_horizontal"
+            android:onClick="signUp"
+            android:padding="10dp"
             android:text="SIGN UP"
-            android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/signIn_text"
+            android:id="@+id/signin_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
+            android:fontFamily="sans-serif"
             android:padding="10dp"
             android:text="Already Have an Account?  Sign in"
             android:textAllCaps="true"
-            android:textSize="13dp"
-            android:textStyle="bold"
             android:textColor="#FFFFFF"
-            android:fontFamily="sans-serif"/>
+            android:textSize="13sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
-</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "69071196158",
+    "firebase_url": "https://serveasy-55ef4.firebaseio.com",
+    "project_id": "serveasy-55ef4",
+    "storage_bucket": "serveasy-55ef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69071196158:android:87e98a30d0db739c21faaf",
+        "android_client_info": {
+          "package_name": "com.example.new_serveasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69071196158-c0cgrlkomuimae67h8bh5o81istj8g0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbGJPrlCkp8x15Gl7AQtEi3T7URCR4jUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69071196158-c0cgrlkomuimae67h8bh5o81istj8g0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

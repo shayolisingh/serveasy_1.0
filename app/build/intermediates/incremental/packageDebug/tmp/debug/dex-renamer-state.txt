@@ -1,4 +1,4 @@
-#Tue Dec 03 18:23:25 IST 2019
-base.0=C\:\\Users\\Shayoli Singh\\AndroidStudioProjects\\New_Serveasy\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+#Sun Dec 08 17:10:59 IST 2019
+base.0=C\:\\Android Projects\\serveasy_1.0\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
