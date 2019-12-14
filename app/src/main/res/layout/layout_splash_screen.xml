@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="#232f34">
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/logo_id"
@@ -16,7 +16,7 @@
         android:layout_marginEnd="23dp"
         android:layout_marginStart="23dp"
         android:layout_marginBottom="139dp"
-        android:src="@drawable/newlogo" />
+        android:src="@drawable/logo" />
 
 
 </RelativeLayout>
