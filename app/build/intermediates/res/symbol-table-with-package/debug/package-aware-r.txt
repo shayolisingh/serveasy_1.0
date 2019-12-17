@@ -813,6 +813,7 @@ id disableHome
 id edit_query
 id edit_text_cnfpass
 id email_edittext
+id email_et
 id end
 id expand_activities_button
 id expanded_menu
@@ -884,7 +885,7 @@ id showTitle
 id signin_button
 id signin_text
 id signup_button
-id signup_label
+id signup_textview
 id spacer
 id split_action_bar
 id spread
@@ -920,7 +921,6 @@ id unchecked
 id uniform
 id up
 id useLogo
-id username_et
 id wide
 id withText
 id wrap

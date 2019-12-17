@@ -5,23 +5,29 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
-import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class SignUpActivity extends AppCompatActivity {
+
+    //Constants
+    public static final String CHAT_PREFS = "ChatPrefs";
+    public static final String DISPLAY_NAME_KEY = "username";
 
     //Member Variables
     private EditText UserNameET;
@@ -29,7 +35,7 @@ public class SignUpActivity extends AppCompatActivity {
     private EditText PasswordET;
     private EditText ConfirmPassET;
     private Button SignupButton;
-    private TextView SigninET;
+    private TextView SigninTV;
 
     // Firebase instance variables
     private FirebaseAuth mAuth;
@@ -45,8 +51,7 @@ public class SignUpActivity extends AppCompatActivity {
         EmailET = findViewById(R.id.email_edittext);
         PasswordET = findViewById(R.id.pass_edittext);
         ConfirmPassET = findViewById(R.id.edit_text_cnfpass);
-        SignupButton = findViewById(R.id.signup_button);
-        SigninET = findViewById(R.id.signin_text);
+
 
         // Keyboard sign in action
         ConfirmPassET.setOnEditorActionListener(new TextView.OnEditorActionListener() {
@@ -63,6 +68,7 @@ public class SignUpActivity extends AppCompatActivity {
         // TODO: Get hold of an instance of FirebaseAuth
         mAuth = FirebaseAuth.getInstance();
     }
+
 
     //executed when signup button is pressed
     public void signUp(View v) {
@@ -103,7 +109,7 @@ public class SignUpActivity extends AppCompatActivity {
             focusView.requestFocus();
         } else {
             // TODO: Call create FirebaseUser() here
-                createFirebaseUser();
+            createFirebaseUser();
         }
     }
 
@@ -122,8 +128,8 @@ public class SignUpActivity extends AppCompatActivity {
     // TODO: Create a Firebase user
     private void createFirebaseUser() {
 
-        String email = EmailET.getText().toString();
-        String password = EmailET.getText().toString();
+        final String email = EmailET.getText().toString();
+        final String password = PasswordET.getText().toString();
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -133,9 +139,16 @@ public class SignUpActivity extends AppCompatActivity {
                     Log.d("Serveasy", "User Not Created");
                     showErrorDialog("User Registration Failed");
 
-                } else
-                    showPositiveDialog("Registration Successful "+UserNameET.getText());
+                } else {
+                    Log.d("Serveasy", "Email:" + email + " Password: " + password);
 
+
+                    Toast.makeText(getApplicationContext(), "Registration Successful", Toast.LENGTH_SHORT).show();
+                    saveDisplayName();
+                    Intent intent = new Intent(SignUpActivity.this, SignInActivity.class);
+                    finish();
+                    startActivity(intent);
+                }
             }
         });
 
@@ -144,6 +157,11 @@ public class SignUpActivity extends AppCompatActivity {
 
 
     // TODO: Save the display name to Shared Preferences
+    private void saveDisplayName() {
+        String displayname = UserNameET.getText().toString();
+        SharedPreferences prefs = getSharedPreferences(CHAT_PREFS, 0);
+        prefs.edit().putString(DISPLAY_NAME_KEY, displayname).apply();
+    }
 
 
     // TODO: Create an alert dialog to show in case registration failed
@@ -156,15 +174,6 @@ public class SignUpActivity extends AppCompatActivity {
                 .show();
 
 
-    }
-
-    private void showPositiveDialog(String message) {
-        new AlertDialog.Builder(this)
-                .setTitle("Congratulations")
-                .setMessage(message)
-                .setPositiveButton(android.R.string.ok, null)
-                .setIcon(android.R.drawable.ic_dialog_info)
-                .show();
     }
 
 

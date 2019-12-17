@@ -30,11 +30,11 @@
             tools:src="@drawable/logo" />
 
         <EditText
-            android:id="@+id/username_et"
+            android:id="@+id/email_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:hint="Username"
+            android:hint="Email"
             android:inputType="textPersonName"
             android:padding="15dp"
 
@@ -60,20 +60,21 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:background="@color/colorPrimaryDark"
+            android:onClick="signInExistingUser"
             android:padding="15dp"
             android:text="SIGN IN"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
-            android:textSize="17sp"
 
-            />
+            android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/signup_label"
+            android:id="@+id/signup_textview"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:fontFamily="sans-serif"
+            android:onClick="signup"
             android:padding="10dp"
             android:text="Don't Have an Account?  Sign Up"
             android:textAllCaps="true"

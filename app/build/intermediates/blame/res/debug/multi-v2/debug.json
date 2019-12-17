@@ -2209,6 +2209,21 @@
             ]
         },
         {
+            "outputFile": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/values-v18_values-v18.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/values-v18/values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat",
             "map": [
                 {
@@ -2277,21 +2292,6 @@
                         "startOffsets": "5859",
                         "endColumns": "100",
                         "endOffsets": "5955"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/values-v18_values-v18.arsc.flat",
-            "map": [
-                {
-                    "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/values-v18/values-v18.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "48",
-                        "endOffsets": "99"
                     }
                 }
             ]
