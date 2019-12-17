@@ -100,7 +100,7 @@ public class SignInActivity extends AppCompatActivity {
                 } else {
                     FirebaseUser user = mAuth.getCurrentUser();
                     Log.d("Serveasy", "User Is: " + user);
-                    Intent intent = new Intent(SignInActivity.this, MainActivity.class);
+                    Intent intent = new Intent(SignInActivity.this, SelectVehicle.class);
                     finish();
                     startActivity(intent);
                 }

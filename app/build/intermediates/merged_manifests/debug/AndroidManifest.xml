@@ -27,6 +27,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.new_serveasy.SelectVehicle" />
         <activity
             android:name="com.example.new_serveasy.SignUpActivity"
             android:windowSoftInputMode="adjustResize" />

@@ -128,12 +128,12 @@
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/yash/miniproject/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/yash/miniproject/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -364,12 +364,12 @@
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
     {
-        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/b86f782fc38280792c753b7008811558/play-services-base-17.1.0/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -760,10 +760,6 @@
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-v24_background.jpg.flat",
-        "source": "/home/yash/miniproject/app/src/main/res/drawable-v24/background.jpg"
-    },
-    {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
     },
@@ -1056,10 +1052,6 @@
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-v24_insta_story_size.png.flat",
-        "source": "/home/yash/miniproject/app/src/main/res/drawable-v24/insta_story_size.png"
-    },
-    {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/2111d963c95cc6e94705fb367f0a0943/core-1.1.0/res/drawable-v21/notification_action_background.xml"
     },
@@ -1188,12 +1180,12 @@
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
-        "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
-    },
-    {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable_poster12_17_03515.png.flat",
         "source": "/home/yash/miniproject/app/src/main/res/drawable/poster12_17_03515.png"
+    },
+    {
+        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
+        "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
     },
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -1400,6 +1392,10 @@
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable/abc_btn_check_material.xml"
     },
     {
+        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable_background.png.flat",
+        "source": "/home/yash/miniproject/app/src/main/res/drawable/background.png"
+    },
+    {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
@@ -1544,6 +1540,10 @@
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/b86f782fc38280792c753b7008811558/play-services-base-17.1.0/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-v24_background.png.flat",
+        "source": "/home/yash/miniproject/app/src/main/res/drawable-v24/background.png"
+    },
+    {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
@@ -1590,10 +1590,6 @@
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable_background.jpg.flat",
-        "source": "/home/yash/miniproject/app/src/main/res/drawable/background.jpg"
     },
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_unchecked_mtrl.xml.flat",
@@ -1654,10 +1650,6 @@
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable_insta_story_size.png.flat",
-        "source": "/home/yash/miniproject/app/src/main/res/drawable/insta_story_size.png"
     },
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
@@ -1748,12 +1740,12 @@
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat",
@@ -1962,6 +1954,10 @@
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
         "source": "/home/yash/.gradle/caches/transforms-2/files-2.1/81efca949d99855e5e3f6d718bc8d1fe/appcompat-1.1.0/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/layout_activity_select_vehicle.xml.flat",
+        "source": "/home/yash/miniproject/app/src/main/res/layout/activity_select_vehicle.xml"
     },
     {
         "merged": "/home/yash/miniproject/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
