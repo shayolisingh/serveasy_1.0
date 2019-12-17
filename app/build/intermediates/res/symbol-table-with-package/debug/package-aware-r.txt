@@ -429,6 +429,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -465,7 +466,6 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
-color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -669,6 +669,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable background
+drawable bike
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -677,6 +679,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable car
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -701,6 +704,7 @@ drawable googleg_standard_color_18
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable insta_story_size
+drawable logo
 drawable newlogo
 drawable newlogo2
 drawable newlogo2crop
@@ -716,6 +720,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable poster12_17_03515
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -787,7 +792,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
 id buttonPanel
 id center_vertical
 id chains
@@ -806,8 +810,6 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
-id editText
-id editText2
 id edit_query
 id edit_text_cnfpass
 id email_edittext
@@ -825,7 +827,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id info
 id input_group
 id invisible
@@ -837,11 +838,11 @@ id line3
 id listMode
 id list_item
 id logo_id
+id logo_imageview
 id message
 id middle
 id multiply
 id never
-id newlogo2
 id none
 id normal
 id notification_background
@@ -853,6 +854,7 @@ id packed
 id parent
 id parentPanel
 id pass_edittext
+id password_et
 id percent
 id progress_circular
 id progress_horizontal
@@ -879,9 +881,10 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signUp_text
+id signin_button
 id signin_text
 id signup_button
+id signup_label
 id spacer
 id split_action_bar
 id spread
@@ -917,6 +920,7 @@ id unchecked
 id uniform
 id up
 id useLogo
+id username_et
 id wide
 id withText
 id wrap

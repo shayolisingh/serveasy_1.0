@@ -15,7 +15,7 @@ public class SignInActivity extends AppCompatActivity {
         setContentView(R.layout.activity_signin);
 
 
-        TextView signUp_text = findViewById(R.id.signUp_text);
+        TextView signUp_text = findViewById(R.id.signup_label);
         signUp_text.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
