@@ -76,7 +76,7 @@
             android:onClick="signUp"
             android:padding="10dp"
             android:text="SIGN UP"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/colorAccent"
             android:textSize="17sp" />
 
         <TextView
@@ -88,9 +88,10 @@
             android:padding="10dp"
             android:text="Already Have an Account?  Sign in"
             android:textAllCaps="true"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/colorAccent"
             android:textSize="13sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="signInExistingUser"/>
 
     </LinearLayout>
 </ScrollView>

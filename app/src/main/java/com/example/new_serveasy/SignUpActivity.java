@@ -51,6 +51,16 @@ public class SignUpActivity extends AppCompatActivity {
         EmailET = findViewById(R.id.email_edittext);
         PasswordET = findViewById(R.id.pass_edittext);
         ConfirmPassET = findViewById(R.id.edit_text_cnfpass);
+        SigninTV = findViewById(R.id.signin_text);
+
+        SigninTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignUpActivity.this,SignInActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
 
         // Keyboard sign in action

@@ -33,7 +33,6 @@
             android:id="@+id/email_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             android:hint="Email"
             android:inputType="textPersonName"
             android:padding="15dp"
@@ -64,7 +63,7 @@
             android:padding="15dp"
             android:text="SIGN IN"
             android:textAllCaps="false"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/colorAccent"
 
             android:textSize="17sp" />
 
@@ -78,7 +77,7 @@
             android:padding="10dp"
             android:text="Don't Have an Account?  Sign Up"
             android:textAllCaps="true"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/colorAccent"
             android:textSize="13dp"
             android:textStyle="bold" />
 

@@ -688,7 +688,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable background
+drawable bg_login
 drawable bike
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -738,9 +738,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
-drawable poster12_17_03515
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable yellow
 id ALT
 id CTRL
 id FUNCTION
@@ -900,6 +900,7 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
+id select_label
 id shortcut
 id showCustom
 id showHome
@@ -930,7 +931,6 @@ id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id text
 id text2
-id textGrid
 id textSpacerNoButtons
 id textSpacerNoTitle
 id time

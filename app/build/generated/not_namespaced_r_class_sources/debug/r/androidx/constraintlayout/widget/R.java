@@ -82,9 +82,9 @@ public final class R {
         public static final int parent = 0x7f070085;
         public static final int percent = 0x7f070089;
         public static final int right = 0x7f07008d;
-        public static final int spread = 0x7f0700a9;
-        public static final int spread_inside = 0x7f0700aa;
-        public static final int start = 0x7f0700af;
+        public static final int spread = 0x7f0700aa;
+        public static final int spread_inside = 0x7f0700ab;
+        public static final int start = 0x7f0700b0;
         public static final int top = 0x7f0700c4;
         public static final int wrap = 0x7f0700cd;
     }
