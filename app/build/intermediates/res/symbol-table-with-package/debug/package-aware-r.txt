@@ -23,6 +23,11 @@ anim btn_radio_to_off_mtrl_ring_outer_path_animation
 anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
+array brandlist
+array fueltype
+array location
+array modellist
+array modelyear
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -167,6 +172,11 @@ attr editTextStyle
 attr elevation
 attr emptyVisibility
 attr expandActivityOverflowButtonDrawable
+attr fastScrollEnabled
+attr fastScrollHorizontalThumbDrawable
+attr fastScrollHorizontalTrackDrawable
+attr fastScrollVerticalThumbDrawable
+attr fastScrollVerticalTrackDrawable
 attr firstBaselineToTopHeight
 attr font
 attr fontFamily
@@ -198,6 +208,7 @@ attr isLightTheme
 attr itemPadding
 attr lastBaselineToBottomHeight
 attr layout
+attr layoutManager
 attr layout_constrainedHeight
 attr layout_constrainedWidth
 attr layout_constraintBaseline_creator
@@ -294,6 +305,8 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+attr recyclerViewStyle
+attr reverseLayout
 attr scopeUris
 attr searchHintIcon
 attr searchIcon
@@ -306,11 +319,13 @@ attr showDividers
 attr showText
 attr showTitle
 attr singleChoiceItemLayout
+attr spanCount
 attr spinBars
 attr spinnerDropDownItemStyle
 attr spinnerStyle
 attr splitTrack
 attr srcCompat
+attr stackFromEnd
 attr state_above_anchor
 attr subMenuArrow
 attr submitBackground
@@ -470,6 +485,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color seaGreenLight
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -480,6 +496,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color textColor
 color tooltip_background_dark
 color tooltip_background_light
 dimen abc_action_bar_content_inset_material
@@ -572,6 +589,9 @@ dimen compat_notification_large_icon_max_height
 dimen compat_notification_large_icon_max_width
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fastscroll_default_thickness
+dimen fastscroll_margin
+dimen fastscroll_minimum_range
 dimen highlight_alpha_material_colored
 dimen highlight_alpha_material_dark
 dimen highlight_alpha_material_light
@@ -579,6 +599,9 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen item_touch_helper_max_drag_scroll_per_frame
+dimen item_touch_helper_swipe_escape_max_velocity
+dimen item_touch_helper_swipe_escape_velocity
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -688,6 +711,8 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable backgrounh_xd
+drawable bg
 drawable bg_login
 drawable bike
 drawable btn_checkbox_checked_mtrl
@@ -699,6 +724,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable car
+drawable car_small
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -718,10 +744,14 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable contact_us
+drawable dashboard_bg
+drawable feedback
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable insta_story_size
 drawable logo
 drawable newlogo
 drawable newlogo2
@@ -738,15 +768,21 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable search
+drawable service_at_home
+drawable services
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable yellow
 id ALT
+id Add_vehicle_cardView
 id CTRL
 id FUNCTION
 id META
 id SHIFT
 id SYM
+id ScrollView01
+id Services_imageview
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -800,6 +836,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id add_bike_button
+id addvehicle_cv
 id adjust_height
 id adjust_width
 id alertTitle
@@ -808,27 +846,32 @@ id async
 id auto
 id barrier
 id beginning
-id bike
-id bike_cardview
+id bike_option
 id blocking
 id bottom
+id brand_spinner
+id brand_tv
 id buttonPanel
-id car
-id car_cardview
+id car_imageview
+id car_option
 id center_vertical
 id chains
 id checkbox
 id checked
 id chronometer
 id collapseActionView
+id contact_us_cardView
+id contact_us_imageview
 id content
 id contentPanel
 id custom
 id customPanel
 id dark
+id dashboard_grid
 id decor_content_parent
 id default_activity_button
 id dialog_button
+id diesel_radio
 id dimensions
 id direct
 id disableHome
@@ -839,7 +882,13 @@ id email_et
 id end
 id expand_activities_button
 id expanded_menu
+id feedback_cardView
+id feedback_cv
+id feedback_imageview
 id forever
+id garage_location
+id garage_name
+id garage_recycler_view
 id gone
 id group_divider
 id groups
@@ -854,7 +903,9 @@ id info
 id input_group
 id invisible
 id italic
+id item_touch_helper_previous_elevation
 id left
+id left_guideline
 id light
 id line1
 id line3
@@ -864,6 +915,10 @@ id logo_id
 id logo_imageview
 id message
 id middle
+id model_spninner
+id model_tv
+id model_yeartv
+id modelyear_spinner
 id multiply
 id never
 id none
@@ -879,10 +934,14 @@ id parentPanel
 id pass_edittext
 id password_et
 id percent
+id petrol_radio
 id progress_circular
 id progress_horizontal
 id radio
+id rcnumber_edittext
+id rcnumber_tv
 id right
+id right_guideline
 id right_icon
 id right_side
 id screen
@@ -894,13 +953,22 @@ id search_bar
 id search_button
 id search_close_btn
 id search_edit_frame
+id search_garages_cardView
 id search_go_btn
+id search_imageview
 id search_mag_icon
 id search_plate
+id search_spinner
 id search_src_text
+id search_tv
 id search_voice_btn
+id searchgarage_cv
 id select_dialog_listview
-id select_label
+id service_at_home_cardView
+id service_at_home_imageview
+id serviceathome_cv
+id services_cardView
+id services_cv
 id shortcut
 id showCustom
 id showHome
@@ -920,6 +988,7 @@ id standard
 id start
 id submenuarrow
 id submit_area
+id support_cv
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -944,6 +1013,13 @@ id unchecked
 id uniform
 id up
 id useLogo
+id v_brand_tv
+id v_fueltype_tv
+id v_model_tv
+id v_modelyear_tv
+id v_rcnumber_tv
+id v_type_tv
+id vehicle_recycler_view
 id wide
 id withText
 id wrap
@@ -991,10 +1067,15 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_dashbard
+layout activity_garage_recyler
+layout activity_location
 layout activity_main
-layout activity_select_vehicle
 layout activity_signin
+layout activity_vehicle_details
+layout activity_vehicle_recycler
 layout custom_dialog
+layout garage_item
 layout layout_signup
 layout layout_splash_screen
 layout notification_action
@@ -1007,6 +1088,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout vehicle_item
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
@@ -1043,6 +1125,12 @@ string action_sign_in
 string action_sign_in_short
 string action_sign_up
 string app_name
+string brandname1
+string brandname2
+string brandname3
+string brandname4
+string brandname5
+string brandname6
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
 string common_google_play_services_enable_title
@@ -1067,11 +1155,35 @@ string error_incorrect_password
 string error_invalid_email
 string error_invalid_password
 string firebase_database_url
+string fueltype1
+string fueltype2
+string fueltype3
+string fueltype4
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string location1
+string location2
+string location3
+string location4
+string location5
+string location6
+string location7
+string modelname1
+string modelname2
+string modelname3
+string modelname4
+string modelname5
+string modelname6
+string modelyear1
+string modelyear2
+string modelyear3
+string modelyear4
+string modelyear5
+string modelyear6
+string modelyear7
 string permission_rationale
 string project_id
 string prompt_email
@@ -1080,7 +1192,9 @@ string prompt_password
 string prompt_password_again
 string prompt_username
 string sample_message
+string search_garage
 string search_menu_title
+string skip
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -1436,6 +1550,7 @@ style Widget_AppCompat_Toolbar
 style Widget_AppCompat_Toolbar_Button_Navigation
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
+style mySpinnerItemStyle
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -1474,6 +1589,7 @@ styleable MenuView android_windowAnimationStyle android_itemTextAppearance andro
 styleable PopupWindow android_popupBackground android_popupAnimationStyle overlapAnchor
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
+styleable RecyclerView android_orientation android_clipToPadding android_descendantFocusability fastScrollEnabled fastScrollHorizontalThumbDrawable fastScrollHorizontalTrackDrawable fastScrollVerticalThumbDrawable fastScrollVerticalTrackDrawable layoutManager reverseLayout spanCount stackFromEnd
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
 styleable SignInButton buttonSize colorScheme scopeUris
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme

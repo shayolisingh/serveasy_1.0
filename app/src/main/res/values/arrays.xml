@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="brandlist">
+        <item>@string/brandname1</item>
+        <item>@string/brandname2</item>
+        <item>@string/brandname3</item>
+        <item>@string/brandname4</item>
+        <item>@string/brandname5</item>
+        <item>@string/brandname6</item>
+    </string-array>
+
+
+    <string-array name="modellist">
+        <item>@string/modelname1</item>
+        <item>@string/modelname2</item>
+        <item>@string/modelname3</item>
+        <item>@string/modelname4</item>
+        <item>@string/modelname5</item>
+
+    </string-array>
+
+
+
+    <string-array name="modelyear">
+        <item>@string/modelyear1</item>
+        <item>@string/modelyear2</item>
+        <item>@string/modelyear3</item>
+        <item>@string/modelyear4</item>
+        <item>@string/modelyear5</item>
+
+    </string-array>
+
+
+
+    <string-array name="location">
+        <item>@string/location1</item>
+        <item>@string/location2</item>
+        <item>@string/location3</item>
+        <item>@string/location4</item>
+        <item>@string/location5</item>
+        <item>@string/location6</item>
+        <item>@string/location7</item>
+
+    </string-array>
+
+
+
+    <string-array name="fueltype">
+        <item>@string/fueltype1</item>
+        <item>@string/fueltype2</item>
+        <item>@string/fueltype3</item>
+        <item>@string/fueltype4</item>
+
+    </string-array>
+</resources>

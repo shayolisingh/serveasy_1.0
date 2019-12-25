@@ -1,11 +1,26 @@
 <resources>
 
     <!-- Base application theme. -->
+    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!--<style name="dashboard_theam" parent="Theme.AppCompat.Light">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="colorPrimary">#F9AA33</item>
+        <item name="colorPrimaryDark">#E2992C</item>
+
+    </style>-->
+
+
+    <style name="mySpinnerItemStyle" parent="Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textColor">@color/textColor</item>
+
+    </style>
+
 
 </resources>

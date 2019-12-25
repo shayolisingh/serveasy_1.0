@@ -19,6 +19,52 @@
         completions."
     </string>
     <string name="sample_message">Hello!</string>
+    <string name="search_garage">Search Garage</string>
 
 
+    <!--vehicle brand name -->
+    <string name="brandname1">Brand</string>
+    <string name="brandname2">Suzuki</string>
+    <string name="brandname3">Yamaha</string>
+    <string name="brandname4">TVS</string>
+    <string name="brandname5">Bajaj</string>
+    <string name="brandname6">Royal Enfield</string>
+
+
+    <!--vehicle model name -->
+
+    <string name="modelname1">Model</string>
+    <string name="modelname2">Lets</string>
+    <string name="modelname3">Access</string>
+    <string name="modelname4">Gixxer</string>
+    <string name="modelname5">Intrude</string>
+    <string name="modelname6">Burgman Street</string>
+
+
+    <!--vehicle model year -->
+
+    <string name="modelyear1">Year</string>
+    <string name="modelyear2">2013</string>
+    <string name="modelyear3">2014</string>
+    <string name="modelyear4">2015</string>
+    <string name="modelyear5">2016</string>
+    <string name="modelyear6">2017</string>
+    <string name="modelyear7">2018</string>
+
+
+    <!--vehicle Fuel Type-->
+    <string name="fueltype1">Fuel Type</string>
+    <string name="fueltype2">Petrol</string>
+    <string name="fueltype3">Diesel</string>
+    <string name="fueltype4">CNG</string>
+    <string name="skip">skip</string>
+
+    <!--Location-->
+    <string name="location1">Select Area</string>
+    <string name="location2">Kothrud</string>
+    <string name="location3">Shivajinagar</string>
+    <string name="location4">Viman Nagar</string>
+    <string name="location5">Bavdhan</string>
+    <string name="location6">Balewadi</string>
+    <string name="location7">Baner</string>
 </resources>

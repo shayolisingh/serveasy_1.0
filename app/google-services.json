@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "69071196158-6fu2epk1ttd228nrln7oh97gd9m9ban8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.new_serveasy",
+            "certificate_hash": "4fcc0b071efd25b68ff7fa90ec5862c63055b2e2"
+          }
+        },
+        {
           "client_id": "69071196158-c0cgrlkomuimae67h8bh5o81istj8g0d.apps.googleusercontent.com",
           "client_type": 3
         }

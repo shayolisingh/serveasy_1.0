@@ -11,14 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SelectVehicle"></activity>
+        <activity android:name=".activities.VehicleRecyclerActivity"></activity>
+        <activity android:name=".activities.GarageRecyclerActivity" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".activities.SignUpActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".activities.SignInActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".Splash_Screen_Activity">
+        <activity android:name=".activities.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,8 +27,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:theme="@style/AppTheme" />
+        <activity android:name=".activities.VehicleDetails">
+
+        </activity>
+        <activity android:name=".activities.DashboardActivity" />
+        <activity android:name=".activities.SearchActivity" />
+
+
     </application>
 
 </manifest>
